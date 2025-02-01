@@ -1,0 +1,33 @@
+Request method:	DELETE
+Request URI:	https://practice.expandtesting.com/notes/api/notes/676ab17693df2301527af9db
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-auth-token=0f1f65d02ce149d89bf6f019a9972ce0dd2cc60f178d42518836cab192f7908c
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, PUT, DELETE, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+etag: W/"43-NRjYUraIosLt+x2lOOhDKG8vqCU"
+set-cookie: express:sess=eyJmbGFzaCI6e319; path=/; httponly
+set-cookie: express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly
+date: Tue, 24 Dec 2024 13:04:59 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+{
+    "success": true,
+    "status": 200,
+    "message": "Note successfully deleted"
+}
